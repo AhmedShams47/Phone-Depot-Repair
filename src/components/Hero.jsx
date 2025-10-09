@@ -179,7 +179,7 @@ export default function Hero() {
                 {/* Left Text */}
                 <div ref={leftTextRef} className="flex-1 max-w-full sm:max-w-[300px] md:max-w-[400px] text-center sm:text-left">
                   <h2 className="text-lg sm:text-xl md:text-2xl font-normal text-black leading-tight [text-shadow:_2px_2px_4px_rgb(0_0_0_/_0.3)]">
-                    Experience Innovation: The Ultimate iPhone 5 Pro Max
+                    Experience Innovation: The Ultimate iPhone 15 Pro Max
                   </h2>
                 </div>
               </div>

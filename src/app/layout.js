@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Phone Depot & Repair",
   description: "Your Phone, We Care - Premium phone accessories and repair services",
+  verification: {
+    google: "JfeihKHIbG4vtweZa8wYa95PlYcIYIuDew20b7k70_0",
+  },
   icons: {
     icon: [
       { url: '/favicon.ico' },

@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 export default function Header() {
@@ -79,7 +80,7 @@ export default function Header() {
         {/* Center - Samsung, Search, Apple */}
         <div className="flex items-center gap-4 sm:gap-8 md:gap-12 lg:gap-50 flex-1 justify-center">
           {/* Samsung Logo */}
-          <div className="hover:scale-105 transition-transform">
+          <Link href="/samsung" className="hover:scale-105 transition-transform">
             <Image
               src="/samsung.png"
               alt="Samsung"
@@ -87,7 +88,7 @@ export default function Header() {
               height={26}
               className="object-contain sm:w-[100px] sm:h-[32px] md:w-[120px] md:h-[38px]"
             />
-          </div>
+          </Link>
 
           {/* Search Icon - Only this hides */}
           <button 
@@ -111,7 +112,7 @@ export default function Header() {
           </button>
 
           {/* Apple Logo */}
-          <div className="hover:scale-110 transition-transform">
+          <Link href="/apple" className="hover:scale-110 transition-transform">
             <Image
               src="/apple.png"
               alt="Apple"
@@ -119,7 +120,7 @@ export default function Header() {
               height={25}
               className="object-contain sm:w-[85px] sm:h-[30px] md:w-[100px] md:h-[36px]"
             />
-          </div>
+          </Link>
         </div>
 
         {/* Right - Help & Support */}

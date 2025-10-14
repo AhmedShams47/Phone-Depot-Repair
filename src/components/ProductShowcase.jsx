@@ -145,6 +145,254 @@ export default function ProductShowcase() {
           </div>
         </div>
 
+
+        {/* Apple Products Section */}
+        <div className="py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-12">
+          <div className="max-w-[1600px] mx-auto">
+            <div className="text-center mb-8 sm:mb-12">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 drop-shadow-2xl">
+                Apple Products
+              </h2>
+              <p className="text-white text-base sm:text-lg drop-shadow-lg">
+                Latest iPhone models and accessories
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+              {/* Apple Product 1 */}
+              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ backgroundImage: "url(/card-bg.svg)" }}>
+                <div className="flex flex-col flex-grow">
+                  <div className="mb-4 sm:mb-5">
+                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
+                      iPhone 15 Pro Max 256GB
+                    </h3>
+                  </div>
+                  <div className="relative w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48 mx-auto mb-3 sm:mb-4 flex-shrink-0">
+                    <Image 
+                      src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=400&fit=crop&crop=center"
+                      alt="iPhone 15 Pro Max"
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <div className="flex justify-center gap-2 mt-auto">
+                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors">
+                      Buy
+                    </button>
+                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-gray-700 transition-colors">
+                      Learn More
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              {/* Apple Product 2 */}
+              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ backgroundImage: "url(/card-bg.svg)" }}>
+                <div className="flex flex-col flex-grow">
+                  <div className="mb-4 sm:mb-5">
+                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
+                      iPhone 15 Pro Max 256GB SIM Card
+                    </h3>
+                  </div>
+                  <div className="relative w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48 mx-auto mb-3 sm:mb-4 flex-shrink-0">
+                    <Image 
+                      src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=400&fit=crop&crop=center"
+                      alt="iPhone 15 Pro Max"
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <div className="flex justify-center gap-2 mt-auto">
+                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors">
+                      Buy
+                    </button>
+                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-gray-700 transition-colors">
+                      Learn More
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              {/* Apple Product 3 */}
+              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ backgroundImage: "url(/card-bg.svg)" }}>
+                <div className="flex flex-col flex-grow">
+                  <div className="mb-4 sm:mb-5">
+                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
+                      iPhone 15 Pro Max 256GB Used
+                    </h3>
+                  </div>
+                  <div className="relative w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48 mx-auto mb-3 sm:mb-4 flex-shrink-0">
+                    <Image 
+                      src="https://images.unsplash.com/photo-1556656793-08538906a9f8?w=300&h=400&fit=crop&crop=center"
+                      alt="iPhone 15 Pro Max Used"
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <div className="flex justify-center gap-2 mt-auto">
+                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors">
+                      Buy
+                    </button>
+                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-gray-700 transition-colors">
+                      Learn More
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              {/* Apple Product 4 */}
+              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ backgroundImage: "url(/card-bg.svg)" }}>
+                <div className="flex flex-col flex-grow">
+                  <div className="mb-4 sm:mb-5">
+                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
+                      iPhone 14 Pro Max 256GB
+                    </h3>
+                  </div>
+                  <div className="relative w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48 mx-auto mb-3 sm:mb-4 flex-shrink-0">
+                    <Image 
+                      src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=300&h=400&fit=crop&crop=center"
+                      alt="iPhone 14 Pro Max"
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <div className="flex justify-center gap-2 mt-auto">
+                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors">
+                      Buy
+                    </button>
+                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-gray-700 transition-colors">
+                      Learn More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Samsung Products Section */}
+        <div className="py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-12">
+          <div className="max-w-[1600px] mx-auto">
+            <div className="text-center mb-8 sm:mb-12">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 drop-shadow-2xl">
+                Samsung Products
+              </h2>
+              <p className="text-white text-base sm:text-lg drop-shadow-lg">
+                Latest Galaxy models and accessories
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+              {/* Samsung Product 1 */}
+              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ backgroundImage: "url(/card-bg.svg)" }}>
+                <div className="flex flex-col flex-grow">
+                  <div className="mb-4 sm:mb-5">
+                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
+                      Galaxy S24 Ultra 256GB
+                    </h3>
+                  </div>
+                  <div className="relative w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48 mx-auto mb-3 sm:mb-4 flex-shrink-0">
+                    <Image 
+                      src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=400&fit=crop&crop=center"
+                      alt="Galaxy S24 Ultra"
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <div className="flex justify-center gap-2 mt-auto">
+                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors">
+                      Buy
+                    </button>
+                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-gray-700 transition-colors">
+                      Learn More
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              {/* Samsung Product 2 */}
+              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ backgroundImage: "url(/card-bg.svg)" }}>
+                <div className="flex flex-col flex-grow">
+                  <div className="mb-4 sm:mb-5">
+                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
+                      Galaxy S22 Ultra 128GB
+                    </h3>
+                  </div>
+                  <div className="relative w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48 mx-auto mb-3 sm:mb-4 flex-shrink-0">
+                    <Image 
+                      src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=400&fit=crop&crop=center"
+                      alt="Galaxy S22 Ultra"
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <div className="flex justify-center gap-2 mt-auto">
+                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors">
+                      Buy
+                    </button>
+                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-gray-700 transition-colors">
+                      Learn More
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              {/* Samsung Product 3 */}
+              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ backgroundImage: "url(/card-bg.svg)" }}>
+                <div className="flex flex-col flex-grow">
+                  <div className="mb-4 sm:mb-5">
+                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
+                      Galaxy S22 Ultra 256GB
+                    </h3>
+                  </div>
+                  <div className="relative w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48 mx-auto mb-3 sm:mb-4 flex-shrink-0">
+                    <Image 
+                      src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=300&h=400&fit=crop&crop=center"
+                      alt="Galaxy S22 Ultra"
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <div className="flex justify-center gap-2 mt-auto">
+                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors">
+                      Buy
+                    </button>
+                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-gray-700 transition-colors">
+                      Learn More
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              {/* Samsung Product 4 */}
+              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ backgroundImage: "url(/card-bg.svg)" }}>
+                <div className="flex flex-col flex-grow">
+                  <div className="mb-4 sm:mb-5">
+                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
+                      Galaxy S23 Plus 256GB
+                    </h3>
+                  </div>
+                  <div className="relative w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48 mx-auto mb-3 sm:mb-4 flex-shrink-0">
+                    <Image 
+                      src="https://images.unsplash.com/photo-1556656793-08538906a9f8?w=300&h=400&fit=crop&crop=center"
+                      alt="Galaxy S23 Plus"
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <div className="flex justify-center gap-2 mt-auto">
+                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors">
+                      Buy
+                    </button>
+                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-gray-700 transition-colors">
+                      Learn More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* Reviews Section */}
         <div ref={reviewsRef} className="mt-16 sm:mt-20 md:mt-24 lg:mt-28 xl:mt-32">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 md:gap-10 lg:gap-12">

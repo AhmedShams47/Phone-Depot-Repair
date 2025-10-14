@@ -21,7 +21,10 @@ export default function Hero() {
   const bottomImagesRef = useRef(null);
 
   useEffect(() => {
+    if (typeof window === "undefined") return;
+    
     const handleHeaderHover = (event) => {
+      console.log('Header hover event received:', event.detail.isHovered);
       setHeaderHovered(event.detail.isHovered);
     };
 
@@ -147,13 +150,14 @@ export default function Hero() {
         <div className="pt-6 pb-4 px-4 sm:pt-8 sm:pb-6 sm:px-6 md:pt-12 md:pb-8 md:px-12">
           <div className="max-w-[1600px] mx-auto">
             {/* Main Logo at Top */}
-            <div ref={logoRef} className={`flex justify-center mb-4 sm:mb-6 md:mb-8 transition-opacity duration-500 ${headerHovered ? 'opacity-0' : 'opacity-100'}`}>
-              <div className="relative w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40">
+            <div ref={logoRef} className={`flex justify-center mb-4 sm:mb-6 md:mb-8 transition-all duration-500 ${headerHovered ? 'opacity-0 invisible' : 'opacity-100 visible'}`}>
+              <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56">
                 <Image
                   src="/main-logo.png"
                   alt="Logo"
                   fill
                   className="object-contain drop-shadow-xl"
+                  priority
                 />
               </div>
             </div>

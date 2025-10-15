@@ -160,7 +160,10 @@ export default function ProductShowcase() {
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
               {/* Apple Product 1 */}
-              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ backgroundImage: "url(/card-bg.svg)" }}>
+              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
+                backgroundImage: "url(/card-bg.svg)",
+                boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"
+              }}>
                 <div className="flex flex-col flex-grow">
                   <div className="mb-4 sm:mb-5">
                     <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
@@ -176,10 +179,10 @@ export default function ProductShowcase() {
                     />
                   </div>
                   <div className="flex justify-center gap-2 mt-auto">
-                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors">
+                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
                       Buy
                     </button>
-                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-gray-700 transition-colors">
+                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
                       Learn More
                     </button>
                   </div>
@@ -187,7 +190,10 @@ export default function ProductShowcase() {
               </div>
 
               {/* Apple Product 2 */}
-              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ backgroundImage: "url(/card-bg.svg)" }}>
+              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
+                backgroundImage: "url(/card-bg.svg)",
+                boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"
+              }}>
                 <div className="flex flex-col flex-grow">
                   <div className="mb-4 sm:mb-5">
                     <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
@@ -203,10 +209,10 @@ export default function ProductShowcase() {
                     />
                   </div>
                   <div className="flex justify-center gap-2 mt-auto">
-                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors">
+                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
                       Buy
                     </button>
-                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-gray-700 transition-colors">
+                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
                       Learn More
                     </button>
                   </div>
@@ -214,7 +220,10 @@ export default function ProductShowcase() {
               </div>
 
               {/* Apple Product 3 */}
-              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ backgroundImage: "url(/card-bg.svg)" }}>
+              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
+                backgroundImage: "url(/card-bg.svg)",
+                boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"
+              }}>
                 <div className="flex flex-col flex-grow">
                   <div className="mb-4 sm:mb-5">
                     <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
@@ -230,10 +239,10 @@ export default function ProductShowcase() {
                     />
                   </div>
                   <div className="flex justify-center gap-2 mt-auto">
-                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors">
+                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
                       Buy
                     </button>
-                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-gray-700 transition-colors">
+                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
                       Learn More
                     </button>
                   </div>
@@ -241,7 +250,10 @@ export default function ProductShowcase() {
               </div>
 
               {/* Apple Product 4 */}
-              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ backgroundImage: "url(/card-bg.svg)" }}>
+              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
+                backgroundImage: "url(/card-bg.svg)",
+                boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"
+              }}>
                 <div className="flex flex-col flex-grow">
                   <div className="mb-4 sm:mb-5">
                     <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
@@ -257,10 +269,10 @@ export default function ProductShowcase() {
                     />
                   </div>
                   <div className="flex justify-center gap-2 mt-auto">
-                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors">
+                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
                       Buy
                     </button>
-                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-gray-700 transition-colors">
+                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
                       Learn More
                     </button>
                   </div>
@@ -284,7 +296,10 @@ export default function ProductShowcase() {
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
               {/* Samsung Product 1 */}
-              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ backgroundImage: "url(/card-bg.svg)" }}>
+              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
+                backgroundImage: "url(/card-bg.svg)",
+                boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"
+              }}>
                 <div className="flex flex-col flex-grow">
                   <div className="mb-4 sm:mb-5">
                     <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
@@ -300,10 +315,10 @@ export default function ProductShowcase() {
                     />
                   </div>
                   <div className="flex justify-center gap-2 mt-auto">
-                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors">
+                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
                       Buy
                     </button>
-                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-gray-700 transition-colors">
+                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
                       Learn More
                     </button>
                   </div>
@@ -311,7 +326,10 @@ export default function ProductShowcase() {
               </div>
 
               {/* Samsung Product 2 */}
-              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ backgroundImage: "url(/card-bg.svg)" }}>
+              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
+                backgroundImage: "url(/card-bg.svg)",
+                boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"
+              }}>
                 <div className="flex flex-col flex-grow">
                   <div className="mb-4 sm:mb-5">
                     <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
@@ -327,10 +345,10 @@ export default function ProductShowcase() {
                     />
                   </div>
                   <div className="flex justify-center gap-2 mt-auto">
-                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors">
+                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
                       Buy
                     </button>
-                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-gray-700 transition-colors">
+                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
                       Learn More
                     </button>
                   </div>
@@ -338,7 +356,10 @@ export default function ProductShowcase() {
               </div>
 
               {/* Samsung Product 3 */}
-              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ backgroundImage: "url(/card-bg.svg)" }}>
+              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
+                backgroundImage: "url(/card-bg.svg)",
+                boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"
+              }}>
                 <div className="flex flex-col flex-grow">
                   <div className="mb-4 sm:mb-5">
                     <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
@@ -354,10 +375,10 @@ export default function ProductShowcase() {
                     />
                   </div>
                   <div className="flex justify-center gap-2 mt-auto">
-                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors">
+                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
                       Buy
                     </button>
-                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-gray-700 transition-colors">
+                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
                       Learn More
                     </button>
                   </div>
@@ -365,7 +386,10 @@ export default function ProductShowcase() {
               </div>
 
               {/* Samsung Product 4 */}
-              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ backgroundImage: "url(/card-bg.svg)" }}>
+              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
+                backgroundImage: "url(/card-bg.svg)",
+                boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"
+              }}>
                 <div className="flex flex-col flex-grow">
                   <div className="mb-4 sm:mb-5">
                     <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
@@ -381,10 +405,10 @@ export default function ProductShowcase() {
                     />
                   </div>
                   <div className="flex justify-center gap-2 mt-auto">
-                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors">
+                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
                       Buy
                     </button>
-                    <button className="bg-gray-600 text-white px-3 py-1.5 rounded-full text-xs font-medium hover:bg-gray-700 transition-colors">
+                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
                       Learn More
                     </button>
                   </div>

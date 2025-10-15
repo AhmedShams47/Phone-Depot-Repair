@@ -112,7 +112,10 @@ export default function ApplePage() {
             <div 
               key={index} 
               className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full"
-              style={{ backgroundImage: "url(/card-bg.svg)" }}
+              style={{ 
+                backgroundImage: "url(/card-bg.svg)",
+                boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"
+              }}
             >
               <div className="flex flex-col flex-grow">
                 <div className="mb-4 sm:mb-5">
@@ -130,10 +133,10 @@ export default function ApplePage() {
                 </div>
                 
                 <div className="flex flex-col sm:flex-row gap-2 mt-auto">
-                  <button className="w-full sm:flex-1 bg-gray-900 text-white py-2 sm:py-2.5 px-2 sm:px-3 rounded-xl hover:bg-gray-800 transition-all duration-200 font-medium text-xs sm:text-xs shadow-sm">
+                  <button className="w-full sm:flex-1 text-white py-2 sm:py-2.5 px-2 sm:px-3 rounded-xl hover:opacity-80 transition-all duration-200 font-medium text-xs sm:text-xs shadow-sm" style={{ backgroundColor: '#414548' }}>
                     Buy
                   </button>
-                  <button className="w-full sm:flex-1 bg-gray-900 text-white py-2 sm:py-2.5 px-2 sm:px-3 rounded-xl hover:bg-gray-800 transition-all duration-200 font-medium text-xs sm:text-xs shadow-sm">
+                  <button className="w-full sm:flex-1 text-white py-2 sm:py-2.5 px-2 sm:px-3 rounded-xl hover:opacity-80 transition-all duration-200 font-medium text-xs sm:text-xs shadow-sm" style={{ backgroundColor: '#414548' }}>
                     Learn More
                   </button>
                 </div>

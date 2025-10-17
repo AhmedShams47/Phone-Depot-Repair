@@ -91,7 +91,7 @@ export default function ContactFormPage() {
           {/* Logo and Tagline Section */}
           <div className="text-center pt-8 sm:pt-12 lg:pt-16 pb-6 sm:pb-8">
             
-            <h1 className="text-xl sm:text-2xl lg:text-3xl font-serif text-gray-900 mb-8 sm:mb-12 px-4">
+            <h1 className="text-xl sm:text-2xl lg:text-3xl font-serif text-gray-900 mb-8 sm:mb-8 px-4">
               Get In Touch With Us
             </h1>
           </div>

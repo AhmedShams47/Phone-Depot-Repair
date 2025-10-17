@@ -154,13 +154,13 @@ export default function ProductShowcase() {
                 Apple Products
               </h2>
               <p className="text-white text-base sm:text-lg drop-shadow-lg">
-                Latest iPhone models and accessories
+                Latest iPhone models
               </p>
             </div>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
               {/* Apple Product 1 */}
-              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
+              <div className="bg-center bg-no-repeat rounded-4xl sm:rounded-4xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
                 backgroundImage: "url(/card-bg.svg)",
                 boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"
               }}>
@@ -172,7 +172,7 @@ export default function ProductShowcase() {
                   </div>
                   <div className="relative w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48 mx-auto mb-3 sm:mb-4 flex-shrink-0">
                     <Image 
-                      src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=400&fit=crop&crop=center"
+                      src="/15 1.png"
                       alt="iPhone 15 Pro Max"
                       fill
                       className="object-contain"
@@ -190,7 +190,7 @@ export default function ProductShowcase() {
               </div>
 
               {/* Apple Product 2 */}
-              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
+              <div className="bg-center bg-no-repeat rounded-4xl sm:rounded-4xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
                 backgroundImage: "url(/card-bg.svg)",
                 boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"
               }}>
@@ -202,7 +202,7 @@ export default function ProductShowcase() {
                   </div>
                   <div className="relative w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48 mx-auto mb-3 sm:mb-4 flex-shrink-0">
                     <Image 
-                      src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=400&fit=crop&crop=center"
+                      src="/Iphone 15 pro nax. 2.png"
                       alt="iPhone 15 Pro Max"
                       fill
                       className="object-contain"
@@ -220,7 +220,7 @@ export default function ProductShowcase() {
               </div>
 
               {/* Apple Product 3 */}
-              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
+              <div className="bg-center bg-no-repeat rounded-4xl sm:rounded-4xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
                 backgroundImage: "url(/card-bg.svg)",
                 boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"
               }}>
@@ -232,7 +232,7 @@ export default function ProductShowcase() {
                   </div>
                   <div className="relative w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48 mx-auto mb-3 sm:mb-4 flex-shrink-0">
                     <Image 
-                      src="https://images.unsplash.com/photo-1556656793-08538906a9f8?w=300&h=400&fit=crop&crop=center"
+                      src="/15_pro 2.png"
                       alt="iPhone 15 Pro Max Used"
                       fill
                       className="object-contain"
@@ -250,7 +250,7 @@ export default function ProductShowcase() {
               </div>
 
               {/* Apple Product 4 */}
-              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
+              <div className="bg-center bg-no-repeat rounded-4xl sm:rounded-4xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
                 backgroundImage: "url(/card-bg.svg)",
                 boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"
               }}>
@@ -262,7 +262,7 @@ export default function ProductShowcase() {
                   </div>
                   <div className="relative w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48 mx-auto mb-3 sm:mb-4 flex-shrink-0">
                     <Image 
-                      src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=300&h=400&fit=crop&crop=center"
+                      src="/14_pro_max- 2.png"
                       alt="iPhone 14 Pro Max"
                       fill
                       className="object-contain"
@@ -296,7 +296,7 @@ export default function ProductShowcase() {
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
               {/* Samsung Product 1 */}
-              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
+              <div className="bg-center bg-no-repeat rounded-4xl sm:rounded-4xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
                 backgroundImage: "url(/card-bg.svg)",
                 boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"
               }}>
@@ -308,7 +308,7 @@ export default function ProductShowcase() {
                   </div>
                   <div className="relative w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48 mx-auto mb-3 sm:mb-4 flex-shrink-0">
                     <Image 
-                      src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=400&fit=crop&crop=center"
+                      src="/Galaxy S24 Ultra 256GB 1.png"
                       alt="Galaxy S24 Ultra"
                       fill
                       className="object-contain"
@@ -326,7 +326,7 @@ export default function ProductShowcase() {
               </div>
 
               {/* Samsung Product 2 */}
-              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
+              <div className="bg-center bg-no-repeat rounded-4xl sm:rounded-4xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
                 backgroundImage: "url(/card-bg.svg)",
                 boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"
               }}>
@@ -338,7 +338,7 @@ export default function ProductShowcase() {
                   </div>
                   <div className="relative w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48 mx-auto mb-3 sm:mb-4 flex-shrink-0">
                     <Image 
-                      src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=400&fit=crop&crop=center"
+                      src="/Galaxy S22 Ultra 128GB 1.png"
                       alt="Galaxy S22 Ultra"
                       fill
                       className="object-contain"
@@ -356,7 +356,7 @@ export default function ProductShowcase() {
               </div>
 
               {/* Samsung Product 3 */}
-              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
+              <div className="bg-center bg-no-repeat rounded-4xl sm:rounded-4xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
                 backgroundImage: "url(/card-bg.svg)",
                 boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"
               }}>
@@ -368,7 +368,7 @@ export default function ProductShowcase() {
                   </div>
                   <div className="relative w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48 mx-auto mb-3 sm:mb-4 flex-shrink-0">
                     <Image 
-                      src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=300&h=400&fit=crop&crop=center"
+                      src="/Galaxy S22 Ultra 256GB 1.png"
                       alt="Galaxy S22 Ultra"
                       fill
                       className="object-contain"
@@ -386,7 +386,7 @@ export default function ProductShowcase() {
               </div>
 
               {/* Samsung Product 4 */}
-              <div className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
+              <div className="bg-center bg-no-repeat rounded-4xl sm:rounded-4xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full" style={{ 
                 backgroundImage: "url(/card-bg.svg)",
                 boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"
               }}>
@@ -398,7 +398,7 @@ export default function ProductShowcase() {
                   </div>
                   <div className="relative w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48 mx-auto mb-3 sm:mb-4 flex-shrink-0">
                     <Image 
-                      src="https://images.unsplash.com/photo-1556656793-08538906a9f8?w=300&h=400&fit=crop&crop=center"
+                      src="/Galaxy S23 Ultra 256GB 1.png"
                       alt="Galaxy S23 Plus"
                       fill
                       className="object-contain"

@@ -8,87 +8,87 @@ export default function SamsungPage() {
   const samsungPhones = [
     {
       model: "Galaxy Z Fold 6 1TB",
-      imageUrl: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=400&fit=crop&crop=center",
+      imageUrl: "/Galaxy Z Fold 6 1TB 1.png",
       isNew: true
     },
     {
       model: "Galaxy S25 Ultra 512GB",
-      imageUrl: "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=300&h=400&fit=crop&crop=center",
+      imageUrl: "/Galaxy S25 Ultra 512GB 1.png",
       isNew: true
     },
     {
       model: "Galaxy Z Fold 5 256GB",
-      imageUrl: "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=300&h=400&fit=crop&crop=center",
+      imageUrl: "/Galaxy Z Fold 5 256GB 1.png",
       isNew: false
     },
     {
       model: "Galaxy S24 Ultra 256GB",
-      imageUrl: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=400&fit=crop&crop=center",
+      imageUrl: "/Galaxy S24 Ultra 256GB 1.png",
       isNew: false
     },
     {
       model: "Galaxy S23 Ultra 256GB",
-      imageUrl: "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=300&h=400&fit=crop&crop=center",
+      imageUrl: "/Galaxy S23 Ultra 256GB 1.png",
       isNew: false
     },
     {
       model: "Galaxy Z Flip 5 256GB",
-      imageUrl: "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=300&h=400&fit=crop&crop=center",
+      imageUrl: "/Galaxy Z Flip 5 256GB 1.png",
       isNew: false
     },
     {
       model: "Galaxy S22 Ultra 128GB",
-      imageUrl: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=400&fit=crop&crop=center",
+      imageUrl: "/Galaxy S22 Ultra 128GB 1.png",
       isNew: false
     },
     {
       model: "Galaxy S22 Ultra 256GB",
-      imageUrl: "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=300&h=400&fit=crop&crop=center",
+      imageUrl: "/Galaxy S22 Ultra 256GB 1.png",
       isNew: false
     },
     {
       model: "Galaxy S23 Plus 256GB",
-      imageUrl: "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=300&h=400&fit=crop&crop=center",
+      imageUrl: "/S23Plus--- 2.png",
       isNew: false
     },
     {
       model: "Galaxy S23 FE",
-      imageUrl: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=400&fit=crop&crop=center",
+      imageUrl: "/s23_fe 1.png",
       isNew: false
     },
     {
       model: "Galaxy S23 128GB",
-      imageUrl: "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=300&h=400&fit=crop&crop=center",
+      imageUrl: "/s23_fe 2.png",
       isNew: false
     },
     {
       model: "Galaxy S21 Plus",
-      imageUrl: "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=300&h=400&fit=crop&crop=center",
+      imageUrl: "/s21_plus- 1.png",
       isNew: false
     },
     {
       model: "Galaxy S22 Plus",
-      imageUrl: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=400&fit=crop&crop=center",
+      imageUrl: "/s22_plus- 1.png",
       isNew: false
     },
     {
       model: "Galaxy S20 Ultra 128GB",
-      imageUrl: "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=300&h=400&fit=crop&crop=center",
+      imageUrl: "/Galaxy S20 ultra 128GB 1.png",
       isNew: false
     },
     {
       model: "Galaxy S20 Plus 128GB",
-      imageUrl: "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=300&h=400&fit=crop&crop=center",
+      imageUrl: "/S20_ULTRA- 2.png",
       isNew: false
     },
     {
       model: "Galaxy A54 Revvel Pro 5G",
-      imageUrl: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=400&fit=crop&crop=center",
+      imageUrl: "/Galaxy A54 Revvel Pro 5G 1.png",
       isNew: false
     },
     {
       model: "Galaxy A14 Revvel 5G",
-      imageUrl: "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=300&h=400&fit=crop&crop=center",
+      imageUrl: "/Galaxy A14 Revvel 5G 1.png",
       isNew: false
     }
   ];
@@ -98,7 +98,7 @@ export default function SamsungPage() {
       <div className="min-h-screen bg-[#8a8a8a]">
         <Header />
         <div 
-          className="w-full py-8 sm:py-10 lg:py-12 bg-cover bg-center bg-no-repeat"
+          className="w-full py-8 sm:py-10 lg:py-12 bg-cover bg-center bg-no-repeat -mt-8 mb-6"
           style={{ backgroundImage: "url(/background-2.png)" }}
         >
           <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
@@ -106,7 +106,7 @@ export default function SamsungPage() {
           {samsungPhones.map((phone, index) => (
             <div 
               key={index} 
-              className="bg-cover bg-center bg-no-repeat rounded-lg sm:rounded-xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full"
+              className="bg-center bg-no-repeat rounded-4xl sm:rounded-4xl shadow-lg hover:shadow-xl transition-shadow p-3 sm:p-4 lg:p-6 text-center flex flex-col h-full"
               style={{ 
                 backgroundImage: "url(/card-bg.svg)",
                 boxShadow: "0 10px 25px rgba(0, 0, 0, 0.3)"

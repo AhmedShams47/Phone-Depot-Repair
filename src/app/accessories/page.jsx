@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import SmoothScrollProvider from '@/components/SmoothScrollProvider';
@@ -56,9 +57,11 @@ export default function AccessoriesPage() {
                 <p className="text-gray-600 text-sm mb-3">Latest Apple flagship</p>
                 <div className="flex justify-between items-center">
                   <span className="text-xl font-bold text-blue-600">$99</span>
-                  <button className="text-white px-4 py-2 rounded-lg text-sm hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                    View
-                  </button>
+                  <Link href="/contact-form">
+                    <button className="text-white px-4 py-2 rounded-lg text-sm hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
+                      Learn More
+                    </button>
+                  </Link>
                 </div>
               </div>
 
@@ -76,9 +79,11 @@ export default function AccessoriesPage() {
                 <p className="text-gray-600 text-sm mb-3">Premium Android experience</p>
                 <div className="flex justify-between items-center">
                   <span className="text-xl font-bold text-blue-600">$89</span>
-                  <button className="text-white px-4 py-2 rounded-lg text-sm hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                    View
-                  </button>
+                  <Link href="/contact-form">
+                    <button className="text-white px-4 py-2 rounded-lg text-sm hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
+                      Learn More
+                    </button>
+                  </Link>
                 </div>
               </div>
 
@@ -96,9 +101,11 @@ export default function AccessoriesPage() {
                 <p className="text-gray-600 text-sm mb-3">Professional tablet</p>
                 <div className="flex justify-between items-center">
                   <span className="text-xl font-bold text-blue-600">$1,09</span>
-                  <button className="text-white px-4 py-2 rounded-lg text-sm hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                    View
-                  </button>
+                  <Link href="/contact-form">
+                    <button className="text-white px-4 py-2 rounded-lg text-sm hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
+                      Learn More
+                    </button>
+                  </Link>
                 </div>
               </div>
 
@@ -116,9 +123,11 @@ export default function AccessoriesPage() {
                 <p className="text-gray-600 text-sm mb-3">Wireless charge</p>
                 <div className="flex justify-between items-center">
                   <span className="text-xl font-bold text-blue-600">$249</span>
-                  <button className="text-white px-4 py-2 rounded-lg text-sm hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                    View
-                  </button>
+                  <Link href="/contact-form">
+                    <button className="text-white px-4 py-2 rounded-lg text-sm hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
+                      Learn More
+                    </button>
+                  </Link>
                 </div>
               </div>
 
@@ -136,9 +145,11 @@ export default function AccessoriesPage() {
                 <p className="text-gray-600 text-sm mb-3">Smart companion</p>
                 <div className="flex justify-between items-center">
                   <span className="text-xl font-bold text-blue-600">$399</span>
-                  <button className="text-white px-4 py-2 rounded-lg text-sm hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                    View
-                  </button>
+                  <Link href="/contact-form">
+                    <button className="text-white px-4 py-2 rounded-lg text-sm hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
+                      Learn More
+                    </button>
+                  </Link>
                 </div>
               </div>
 
@@ -156,9 +167,11 @@ export default function AccessoriesPage() {
                 <p className="text-gray-600 text-sm mb-3">Professional</p>
                 <div className="flex justify-between items-center">
                   <span className="text-xl font-bold text-blue-600">$1,999</span>
-                  <button className="text-white px-4 py-2 rounded-lg text-sm hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                    View
-                  </button>
+                  <Link href="/contact-form">
+                    <button className="text-white px-4 py-2 rounded-lg text-sm hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
+                      Learn More
+                    </button>
+                  </Link>
                 </div>
               </div>
 
@@ -176,9 +189,11 @@ export default function AccessoriesPage() {
                 <p className="text-gray-600 text-sm mb-3">Smart tracker</p>
                 <div className="flex justify-between items-center">
                   <span className="text-xl font-bold text-blue-600">$299</span>
-                  <button className="text-white px-4 py-2 rounded-lg text-sm hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                    View
-                  </button>
+                  <Link href="/contact-form">
+                    <button className="text-white px-4 py-2 rounded-lg text-sm hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
+                      Learn More
+                    </button>
+                  </Link>
                 </div>
               </div>
 
@@ -196,9 +211,11 @@ export default function AccessoriesPage() {
                 <p className="text-gray-600 text-sm mb-3">Protection & style</p>
                 <div className="flex justify-between items-center">
                   <span className="text-xl font-bold text-blue-600">$49</span>
-                  <button className="text-white px-4 py-2 rounded-lg text-sm hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                    View
-                  </button>
+                  <Link href="/contact-form">
+                    <button className="text-white px-4 py-2 rounded-lg text-sm hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
+                      Learn More
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

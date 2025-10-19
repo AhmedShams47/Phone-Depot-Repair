@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -178,13 +179,12 @@ export default function ProductShowcase() {
                       className="object-contain"
                     />
                   </div>
-                  <div className="flex justify-center gap-2 mt-auto">
-                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                      Buy
-                    </button>
-                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                      Learn More
-                    </button>
+                  <div className="flex justify-center mt-auto">
+                    <Link href="/contact-form">
+                      <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
+                        Learn More
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -208,13 +208,12 @@ export default function ProductShowcase() {
                       className="object-contain"
                     />
                   </div>
-                  <div className="flex justify-center gap-2 mt-auto">
-                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                      Buy
-                    </button>
-                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                      Learn More
-                    </button>
+                  <div className="flex justify-center mt-auto">
+                    <Link href="/contact-form">
+                      <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
+                        Learn More
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -238,13 +237,12 @@ export default function ProductShowcase() {
                       className="object-contain"
                     />
                   </div>
-                  <div className="flex justify-center gap-2 mt-auto">
-                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                      Buy
-                    </button>
-                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                      Learn More
-                    </button>
+                  <div className="flex justify-center mt-auto">
+                    <Link href="/contact-form">
+                      <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
+                        Learn More
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -268,13 +266,12 @@ export default function ProductShowcase() {
                       className="object-contain"
                     />
                   </div>
-                  <div className="flex justify-center gap-2 mt-auto">
-                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                      Buy
-                    </button>
-                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                      Learn More
-                    </button>
+                  <div className="flex justify-center mt-auto">
+                    <Link href="/contact-form">
+                      <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
+                        Learn More
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -314,13 +311,12 @@ export default function ProductShowcase() {
                       className="object-contain"
                     />
                   </div>
-                  <div className="flex justify-center gap-2 mt-auto">
-                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                      Buy
-                    </button>
-                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                      Learn More
-                    </button>
+                  <div className="flex justify-center mt-auto">
+                    <Link href="/contact-form">
+                      <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
+                        Learn More
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -344,13 +340,12 @@ export default function ProductShowcase() {
                       className="object-contain"
                     />
                   </div>
-                  <div className="flex justify-center gap-2 mt-auto">
-                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                      Buy
-                    </button>
-                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                      Learn More
-                    </button>
+                  <div className="flex justify-center mt-auto">
+                    <Link href="/contact-form">
+                      <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
+                        Learn More
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -374,13 +369,12 @@ export default function ProductShowcase() {
                       className="object-contain"
                     />
                   </div>
-                  <div className="flex justify-center gap-2 mt-auto">
-                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                      Buy
-                    </button>
-                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                      Learn More
-                    </button>
+                  <div className="flex justify-center mt-auto">
+                    <Link href="/contact-form">
+                      <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
+                        Learn More
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -404,13 +398,12 @@ export default function ProductShowcase() {
                       className="object-contain"
                     />
                   </div>
-                  <div className="flex justify-center gap-2 mt-auto">
-                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                      Buy
-                    </button>
-                    <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
-                      Learn More
-                    </button>
+                  <div className="flex justify-center mt-auto">
+                    <Link href="/contact-form">
+                      <button className="text-white px-3 py-1.5 rounded-full text-xs font-medium hover:opacity-80 transition-colors" style={{ backgroundColor: '#414548' }}>
+                        Learn More
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>

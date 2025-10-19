@@ -132,13 +132,12 @@ export default function ApplePage() {
                   />
                 </div>
                 
-                <div className="flex flex-col sm:flex-row gap-2 mt-auto">
-                  <button className="w-full sm:flex-1 text-white py-2 sm:py-2.5 px-2 sm:px-3 rounded-xl hover:opacity-80 transition-all duration-200 font-medium text-xs sm:text-xs shadow-sm" style={{ backgroundColor: '#414548' }}>
-                    Buy
-                  </button>
-                  <button className="w-full sm:flex-1 text-white py-2 sm:py-2.5 px-2 sm:px-3 rounded-xl hover:opacity-80 transition-all duration-200 font-medium text-xs sm:text-xs shadow-sm" style={{ backgroundColor: '#414548' }}>
-                    Learn More
-                  </button>
+                <div className="mt-auto">
+                  <Link href="/contact-form">
+                    <button className="w-full text-white py-2 sm:py-2.5 px-2 sm:px-3 rounded-xl hover:opacity-80 transition-all duration-200 font-medium text-xs sm:text-xs shadow-sm" style={{ backgroundColor: '#414548' }}>
+                      Learn More
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

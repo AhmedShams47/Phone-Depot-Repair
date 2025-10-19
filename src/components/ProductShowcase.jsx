@@ -167,7 +167,7 @@ export default function ProductShowcase() {
               }}>
                 <div className="flex flex-col flex-grow">
                   <div className="mb-4 sm:mb-5">
-                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
+                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-2 sm:px-3 rounded-xl font-medium text-[10px] leading-tight whitespace-nowrap">
                       iPhone 15 Pro Max 256GB
                     </h3>
                   </div>
@@ -196,7 +196,7 @@ export default function ProductShowcase() {
               }}>
                 <div className="flex flex-col flex-grow">
                   <div className="mb-4 sm:mb-5">
-                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
+                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-2 sm:px-3 rounded-xl font-medium text-[10px] leading-tight whitespace-nowrap">
                       iPhone 15 Pro Max 256GB SIM Card
                     </h3>
                   </div>
@@ -225,7 +225,7 @@ export default function ProductShowcase() {
               }}>
                 <div className="flex flex-col flex-grow">
                   <div className="mb-4 sm:mb-5">
-                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
+                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-2 sm:px-3 rounded-xl font-medium text-[10px] leading-tight whitespace-nowrap">
                       iPhone 15 Pro Max 256GB Used
                     </h3>
                   </div>
@@ -254,7 +254,7 @@ export default function ProductShowcase() {
               }}>
                 <div className="flex flex-col flex-grow">
                   <div className="mb-4 sm:mb-5">
-                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
+                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-2 sm:px-3 rounded-xl font-medium text-[10px] leading-tight whitespace-nowrap">
                       iPhone 14 Pro Max 256GB
                     </h3>
                   </div>
@@ -299,7 +299,7 @@ export default function ProductShowcase() {
               }}>
                 <div className="flex flex-col flex-grow">
                   <div className="mb-4 sm:mb-5">
-                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
+                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-2 sm:px-3 rounded-xl font-medium text-[10px] leading-tight whitespace-nowrap">
                       Galaxy S24 Ultra 256GB
                     </h3>
                   </div>
@@ -328,7 +328,7 @@ export default function ProductShowcase() {
               }}>
                 <div className="flex flex-col flex-grow">
                   <div className="mb-4 sm:mb-5">
-                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
+                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-2 sm:px-3 rounded-xl font-medium text-[10px] leading-tight whitespace-nowrap">
                       Galaxy S22 Ultra 128GB
                     </h3>
                   </div>
@@ -357,7 +357,7 @@ export default function ProductShowcase() {
               }}>
                 <div className="flex flex-col flex-grow">
                   <div className="mb-4 sm:mb-5">
-                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
+                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-2 sm:px-3 rounded-xl font-medium text-[10px] leading-tight whitespace-nowrap">
                       Galaxy S22 Ultra 256GB
                     </h3>
                   </div>
@@ -386,7 +386,7 @@ export default function ProductShowcase() {
               }}>
                 <div className="flex flex-col flex-grow">
                   <div className="mb-4 sm:mb-5">
-                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
+                    <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-2 sm:px-3 rounded-xl font-medium text-[10px] leading-tight whitespace-nowrap">
                       Galaxy S23 Plus 256GB
                     </h3>
                   </div>

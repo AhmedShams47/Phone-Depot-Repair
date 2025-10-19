@@ -13,7 +13,7 @@ export default function SamsungPage() {
     },
     {
       model: "Galaxy S25 Ultra 512GB",
-      imageUrl: "/Galaxy S25 Ultra 512GB 1.png",
+      imageUrl: "/alaxy S25 Ultra 512GB 1.png",
       isNew: true
     },
     {
@@ -114,11 +114,15 @@ export default function SamsungPage() {
             >
               <div className="flex flex-col flex-grow">
                 <div className="mb-4 sm:mb-5">
-                  <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-xl font-medium text-xs sm:text-sm leading-tight">
+                  <h3 className="bg-gray-900 text-white py-2 sm:py-2.5 px-2 sm:px-3 rounded-xl font-medium text-[10px] leading-tight whitespace-nowrap">
                     {phone.model}
                   </h3>
                 </div>
-                <div className="relative w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48 mx-auto mb-3 sm:mb-4 flex-shrink-0">
+                <div className={`relative mx-auto mb-3 sm:mb-4 flex-shrink-0 ${
+                  phone.model === "Galaxy S25 Ultra 512GB" 
+                    ? "w-28 h-40 sm:w-32 sm:h-44 md:w-36 md:h-52" 
+                    : "w-24 h-36 sm:w-28 sm:h-40 md:w-32 md:h-48"
+                }`}>
                   <Image 
                     src={phone.imageUrl}
                     alt={phone.model}

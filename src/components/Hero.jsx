@@ -19,6 +19,7 @@ export default function Hero() {
   const leftTextRef = useRef(null);
   const rightTextRef = useRef(null);
   const bottomImagesRef = useRef(null);
+  const storeInfoRef = useRef(null);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -57,6 +58,18 @@ export default function Hero() {
           duration: 1, 
           delay: 0.3,
           ease: "back.out(1.7)" 
+        }
+      );
+
+      // Store information animation
+      gsap.fromTo(storeInfoRef.current,
+        { y: 30, opacity: 0 },
+        { 
+          y: 0, 
+          opacity: 1, 
+          duration: 1.2, 
+          delay: 0.5,
+          ease: "power2.out" 
         }
       );
 
@@ -160,6 +173,13 @@ export default function Hero() {
                   priority
                 />
               </div>
+            </div>
+
+            {/* Store Information */}
+            <div ref={storeInfoRef} className="text-center mb-6 sm:mb-8 md:mb-10">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-2 sm:mb-3 [text-shadow:_2px_2px_4px_rgb(0_0_0_/_0.3)]">
+                Phone Depot & Repair
+              </h1>
             </div>
 
             {/* iPhone Cards and Text */}

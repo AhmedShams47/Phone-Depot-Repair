@@ -251,11 +251,11 @@ export default function ContactFormPage() {
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
                     <div>
                       <p className="text-sm font-medium text-gray-900">Phone</p>
-                      <p className="text-sm text-gray-600">+1 (347) 553-077</p>
+                      <p className="text-sm text-gray-600">+1 (405) 956-4687</p>
                     </div>
                     <div>
                       <p className="text-sm font-medium text-gray-900">Email</p>
-                      <p className="text-sm text-gray-600">samiulkarim07@gmail.com</p>
+                      <p className="text-sm text-gray-600">phonedepot717@gmail.com</p>
                     </div>
                     <div>
                       <p className="text-sm font-medium text-gray-900">Address</p>

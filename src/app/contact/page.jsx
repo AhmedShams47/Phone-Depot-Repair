@@ -82,8 +82,8 @@ export default function ContactPage() {
                   <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 sm:mb-4">Contact Information</h3>
                   <ul className="space-y-1 sm:space-y-2 text-sm sm:text-base text-gray-700">
                     <li>• Office Address: 3205 SW 29th St, Oklahoma City OK 73119</li>
-                    <li>• Phone: +1 (347) 553-077</li>
-                    <li>• Email: samiulkarim07@gmail.com</li>
+                    <li>• Phone: +1 (405) 956-4687</li>
+                    <li>• Email: phonedepot717@gmail.com</li>
                   </ul>
                 </div>
                 
